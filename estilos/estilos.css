@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+:root{
+    --fondo: rgb(154, 230, 187);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    background-color: #DCF2DE;
+}
+header{
+    text-transform: uppercase;
+}
+
+
+@media screen and (min-width:1024px){
+    header h1{
+        padding: .5em;
+        font-weight: 500;
+        text-align: center;
+        font-size: 4rem;
+        letter-spacing: .4em;
+    }
+    nav{
+        width: 100%;
+        margin: 0 0 0 0 ;
+        background-color: #F6FEFE;
+    }
+    .btn-nav{
+        margin: 0 3em;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+    }
+    .linea::after{
+        content: "|";   
+        margin-left: 1em;
+    }
+    
+    .description{
+        display: flex;
+        text-transform: uppercase;
+        justify-content: center;
+    }
+    
+    .texto{
+        flex-direction: column;
+    }
+    .card{
+        margin: 3em 2em 0 6em;
+        padding: 1em;
+        width: 30em;
+    }
+    .card h2{
+        text-align: center;
+        margin: 0 0 1em 0 ;
+    }   
+    
+    .imagen img{
+        margin-top: 4em;
+        width: 25em;
+    }
+    .dos{
+        margin: 4em 0;
+        padding: 2em 0;
+        background-color: #F6FEFE;
+        width: 100%;
+        justify-content: center;
+    }
+    .dos h2{    
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .dos img{
+        margin: 0 2em;
+    }
+}
+.tres h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+.contenedor{
+    display: flex;
+    margin: 0 0 0 3em;
+} 
+.contenedor img{
+    width: 25em;
+    margin: 0 0 2em 3em;
+}
+
+footer{
+    background-color: #38A3A5;
+    padding: 3em;
+    color: #ffff;
+    text-align: center;
+}
+footer span{
+    margin: 0 2em;
+}
+footer h2{
+    margin: 2em 0 0 0;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    outline: 0;
+    margin: 1em;
+    border-radius: 5%;
+    padding: 1em;
+    width: 100%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #ffff;
+}
+input:focus-visible{
+    border-color: rgb(91, 197, 239);
+    /* border-bottom-style: g; */
+}
+.description{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    margin: 0 auto;
+    outline: 0;
+    width: 100%;
+    border: none;
+
+    outline: none;
+    border-color: black;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    resize: none; /*remove the resize handle on the bottom right */
+}
+textarea:focus-visible{
+    border-color: rgb(91, 197, 239);
+}
+.enviar{
+    position: relative;
+    width: 10em;
+    padding: .5em;
+    margin: 3em;
+    display: flex;
+    background-color: rgb(91, 197, 239);
+    border-radius: 5%;
+    justify-content: center;
+}
+.enviar:hover{
+    background-color: aquamarine;
+}
+.icon{
+    margin: 2%;
+    padding: 0 2%;
+    
+}
+button{
+    font-size: 1em;
+    border: 0;
+    background: none;
+    text-transform: uppercase;
+}
+
