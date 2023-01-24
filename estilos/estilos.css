@@ -223,6 +223,72 @@ button {
 
 /* Media Queries */
 
+@media (min-width: 768px) {
+
+    nav li { 
+        display: inline;
+    }
+
+    .linea::after {
+        content: "|";   
+        margin-left: 1em;
+        }
+
+    .uno {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    } 
+
+    .unoimg{
+        width: 100%;
+        margin: auto;
+    }
+
+    div {
+        width: 50%;
+        padding: 3% 3%; 
+    }
+
+    .carrusel {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .dos img {
+        width: 30%;
+    }
+
+
+    .tres img {
+        width: 100%;
+
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .nombres {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    p {
+            font-size: 1.5em; 
+        }
+
+    }
+
+
+
+
 /* .linea::after{
         content: "|";   
         margin-left: 1em;
